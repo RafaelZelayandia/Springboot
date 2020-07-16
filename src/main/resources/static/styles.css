@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    max-height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+html,
+body{
+    font-family: 'Manrope', sans-serif;
+    background-image: linear-gradient(to top, #035da2, #0068a4, #0071a2, #007a9f, #00829b, #00919f, 
+    #009f9d, #00ac96, #2fc389, #69d76f, #a7e74b, #ecf210);
+
+}
+header{
+    color: #035da2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 90px;
+    padding: 0 40px;
+}
+header .logo{
+font-weight: 700;
+font-size: 40px;
+font-style: italic, #00919f;
+}
+header .menu ul{
+    display: flex;
+}
+header .menu ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .menu li a{
+    font-size: .8rem;
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.about-btn{
+    background: rgba(10, 216, 223, 0.4);
+    padding: 18px;
+    border-radius: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 40px;*/
+}
+.our-btn{
+    background: rgba(10, 216, 223, 0.4);
+    padding: 18px;
+    border-radius: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 40px;*/
+}
+.corp-btn{
+    background: rgba(10, 216, 223, 0.4);
+    padding: 18px;
+    border-radius: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 40px;*/
+}
+.menu-btn{
+    background: rgba(10, 216, 223, 0.4);
+    padding: 18px;
+    border-radius: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 40px;*/
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+#home{
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .info-section{
+    width: 50%;
+}
+#home .info-section h1{
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 2rem;
+}
+#home .info-section h4{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    /*kerning: 3px;*/
+}
+#home .info-section .call-actions .action-btn{
+    background: #ecf210;
+    padding: 18px;
+    border-radius: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #035da2;
+}
+#home .info-section .call-actions .action-ghost-btn{
+    background: #ecf210;
+    padding: 18px;
+    border-radius: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #035da2;
+}
+
+
+
+
+
+
+
+
+
+
